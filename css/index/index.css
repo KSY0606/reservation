@@ -1,0 +1,211 @@
+@charset "utf-8";
+
+/* 메인 이미지 영역 */
+#main-image-area {
+    height: 440px;
+    margin-top: 115px;
+}
+.main-img {
+    height: 440px;
+}
+.main-img > img {
+    width: 1024px;
+    height: 440px;
+}
+
+/* 숙소 선택 영역 */
+#menu-area {
+    height: 170px;
+}
+.menu {
+    height: 170px;
+}
+.sub-menu {
+    display: flex;
+    width: 1024px;
+    height: 170px;
+}
+.sub-menu > li {
+    display: inline-block;
+    width: 128px;
+    height: 170px;
+}
+.sub-menu > li > a {
+    display: inline-block;
+    width: 118px;
+    height: 105px;
+    margin-top: 32.5px;
+    margin-left: 5px;
+    text-align: center;
+}
+.sub-menu > li > a > img {
+    width: 75px;
+    height: 78px;
+}
+.sub-menu > li > a > span {
+    display: inline-block;
+    width: 100px;
+    margin-top: 3px;
+    font-size: 0.95em;
+    letter-spacing: -1px;
+    text-align: center;
+    color: #7E7E7E;
+}
+
+/* 인기 여행지 영역 */
+#best-trav-area {
+    height: 200px;
+    margin-top: 65px;
+}
+.best-trav {
+    height: 200px;
+}
+.best-trav > h2 {
+    height: 30px;
+}
+.best-pic-frame {
+    margin-top: 20px;
+    display: flex;
+    height: 145px;
+    text-align: center;
+}
+.best-pic-frame > .best-pic { 
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    margin: 12.5px 106px 0 0;
+    border-radius: 50%;
+}
+.best-pic-frame > .best-pic > img { 
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.best-pic-frame > .best-pic > p { 
+    position: relative;
+    top: -70px;
+    display: inline-block;
+    width: 100px;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+/* 이벤트 영역 */
+#event-area {
+    height: 350px;
+    margin-top: 65px;
+}
+.event {
+    height: 350px;
+}
+.event > h2 {
+    height: 30px;
+}
+.event-pic-frame {
+    margin-top: 20px;
+    width: 1024px;
+    height: 300px;
+}
+.ev1 {
+    display: inline-block;
+    width: 570px;
+    height: 150px;
+    margin-left: 10px;
+}
+.ev2 {
+    float: right;
+    width: 424px;
+    height: 150px;
+}
+.ev3 {
+    display: inline-block;
+    width: 273.5px;
+    height: 135px;
+    margin: 15px 18px 0 10px;
+}
+.ev4 {
+    display: inline-block;
+    width: 273.5px;
+    height: 135px;
+    margin-top: 15px;
+}
+.ev5 {
+    float: right;
+    width: 424px;
+    height: 135px;
+    margin-top: 15px;
+}
+.ev1 > a, .ev1 > a > img {
+    display: inline-block;
+    width: 570px;
+    height: 150px;
+}
+.ev2 > a, .ev2 > a > img {
+    display: inline-block;
+    width: 424px;
+    height: 150px;
+}
+.ev3 > a, .ev4 > a, .ev3 > a > img, .ev4 > a > img {
+    display: inline-block;
+    width: 273.5px;
+    height: 135px;
+}
+.ev5 > a, .ev5 > a > img {
+    display: inline-block;
+    width: 424px;
+    height: 135px;
+}
+
+/* 소식 영역 */
+#News-area {
+    height: 220px;
+    margin-top: 65px;
+}
+.news {
+    height: 220px;
+}
+.news > h2 {
+    height: 30px;
+}
+.news1 {
+    float: left;
+    width: 480px;
+    height: 170px;
+    margin: 20px 0 0 10px;
+    position: relative;
+    border: 1px solid #ccc;
+}
+.news2 {
+    float: right;
+    width: 480px;
+    height: 170px;
+    margin: 20px 10px 0 0;
+    position: relative;
+    border: 1px solid #ccc;
+}
+.news img {
+    width: 170px;
+}
+.news .p-title {
+    display: inline-block;
+    width: 280px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 1.1em;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    
+}
+.news .p-con {
+    display: inline-block;
+    width: 280px;
+    height: 60px;
+    line-height: 25px;
+    font-size: 0.9em;
+    position: absolute;
+    top: 80px;
+    right: 0;
+}
